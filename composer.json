@@ -1,0 +1,25 @@
+{
+    "name": "chuano/domain-events",
+    "description": "Ejemplo práctico del uso de eventos de dominio para desacoplar funcionalidades.",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Chuano",
+            "email": "chuano@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+    }
+}
